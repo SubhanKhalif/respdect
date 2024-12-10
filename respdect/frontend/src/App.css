@@ -1,0 +1,132 @@
+/* Reset margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure the height of root elements is 100% */
+html, body, #root {
+  height: 100%;
+}
+
+/* App container */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure it covers the full viewport height */
+}
+
+/* Header styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #282c34;
+  color: white;
+}
+
+/* Navbar and logo styling */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Main content area */
+/* Main content area */
+.main-content {
+  flex: 1; /* Allow main content to take up remaining space */
+  display: flex;
+  flex-direction: column;
+  padding: 0; /* Remove padding to reduce space */
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hero section styling */
+.hero {
+  flex-grow: 1; /* Make the hero section grow to fill remaining space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 20px; /* You can adjust this padding if necessary */
+}
+
+/* Page specific styling */
+.page {
+  flex-grow: 1; /* Make page content fill remaining space */
+  padding: 20px; /* You can reduce this to minimize space */
+  text-align: center;
+  padding-top: 90px;
+}
+
+
+/* Card styling */
+.card {
+  background: white;
+  padding: 40px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Buttons */
+.upload-btn, .diagnose-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.diagnose-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.diagnose-btn:hover {
+  background-color: #0056b3;
+}
+
+
+/* Footer styling */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+}
+
+.footer .socials a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.footer .socials a:hover {
+  text-decoration: underline;
+}
+
+.footer p{
+  padding-bottom: 4px;
+}
+/* Features.css */
+.parag{
+  font-size: 20px;
+  padding:10px 200px 10px 200px;
+  
+}
+

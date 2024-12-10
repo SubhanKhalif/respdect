@@ -1,0 +1,67 @@
+/* Home.css */
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #f0f0f0;
+}
+
+.card {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.file-input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.diagnose-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 15px 0;
+}
+
+.diagnose-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: red;
+  margin-top: 15px;
+}
+
+.prediction {
+  margin-top: 20px;
+}
+
+/* Styles for the image preview */
+.image-preview {
+  margin: 10px 0;
+}
+
+.preview-img {
+  max-width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
